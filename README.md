@@ -1,14 +1,22 @@
-# Flight Price Prediction
+# Flight Price Prediction ✈️
 
-This project aims to predict flight ticket prices using a dataset that includes details like airline, duration, stops, and more.
+This project predicts flight ticket prices using machine learning by analyzing key features such as airline, number of stops, and journey duration.
 
-## Structure
-- EDA & VDA
-- Data Preprocessing
-- Model Training & Evaluation
-- Final Model Pipeline
+## Project Structure
+- data/ → raw & processed datasets  
+- notebooks/ → EDA, preprocessing, modeling  
+- src/ → reusable utility functions  
+
+## Features
+- Data cleaning & preprocessing  
+- Feature engineering  
+- Regression modeling  
+- Model evaluation (RMSE, MAE)  
+- Visualization of predictions  
+
+## Tech Stack
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
 
 ## How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the notebooks in order.
+pip install -r requirements.txt  
+python notebooks/final_model.py
